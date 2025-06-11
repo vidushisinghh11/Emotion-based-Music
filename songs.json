@@ -1,0 +1,8 @@
+{
+  "joy": ["Happy - Pharrell", "Good Life - OneRepublic"],
+  "sadness": ["Fix You - Coldplay", "Let Her Go - Passenger"],
+  "anger": ["In The End - Linkin Park"],
+  "fear": ["Everybody Hurts - R.E.M."],
+  "surprise": ["Shake It Off - Taylor Swift"],
+  "neutral": ["Let It Be - The Beatles"]
+}
