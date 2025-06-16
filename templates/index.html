@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emotion-Based Music Recommender</title>
+</head>
+<body>
+    <h2>Enter your text to get music recommendations:</h2>
+    <form method="POST">
+        <textarea name="text" rows="5" cols="40" placeholder="How are you feeling?"></textarea><br><br>
+        <input type="submit" value="Recommend Songs">
+    </form>
+
+    {% if emotions %}
+        <h3>Detected Emotions:</h3>
+        <ul>
+            {% for emotion in emotions %}
+                <li>{{ emotion }}</li>
+            {% endfor %}
+        </ul>
+
+        <h3>Recommended Songs:</h3>
+        <ul>
+            {% for song in songs %}
+                <li>{{ song }}</li>
+            {% endfor %}
+        </ul>
+        <ul>
+            {% for song in songs %}
+            <li>{{ song | safe }}</li>
+            {% endfor %}
+        </ul>
+
+    {% endif %}
+    
+</body>
+</html>

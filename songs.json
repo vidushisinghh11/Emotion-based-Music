@@ -1,0 +1,9 @@
+{
+  "joy": ["Happy - Pharrell Williams", "Can't Stop The Feeling - Justin Timberlake"],
+  "sadness": ["Someone Like You - Adele", "Let Her Go - Passenger"],
+  "anger": ["Numb - Linkin Park", "Break Stuff - Limp Bizkit"],
+  "fear": ["Creep - Radiohead", "Disturbia - Rihanna"],
+  "surprise": ["Counting Stars - OneRepublic", "Pompeii - Bastille"],
+  "disgust": ["Bury a Friend - Billie Eilish", "Closer - Nine Inch Nails"],
+  "neutral": ["Let It Be - The Beatles", "Yellow - Coldplay"]
+}
